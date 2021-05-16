@@ -1,0 +1,13 @@
+when the program starts, it executes part 1 and part 2 in order.
+In part2:
+	put method tries puting the new element to the (its hashcode % table length )th position.
+	if the index is full, it checks the positions whose indexes increment proportional to the n^2.
+	
+	for( 1 to n)
+		index += n^2
+		if(index is available)
+			break
+
+	remove method:
+		removes the specified element and it places the next element to deleted element's space recursively.
+		
